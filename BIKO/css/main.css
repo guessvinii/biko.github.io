@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: 0px;
+}
+.menu_topo {
+  width: 100%;
+  height: 100px;
+  background: #000000;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+#acessoPrestador {
+  width: fit-content;
+  color: #ffffff;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+#textoBIKO {
+  width: fit-content;
+  color: #ffffff;
+  position: absolute;
+  top: 1%;
+  left: 21%;
+  font-family: 'Inter', sans-serif;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+#acessoCliente {
+  width: 100%;
+  color: #ffffff;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+
+}
+.bordaAcesso{
+  width: 150px;
+  display: flex;
+  height: 75px;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  border-radius: 15px;
+  border: 4px solid #ffffff;
+  align-content: center;
+  align-items: center;
+}
+
+.bordaCriar{
+  width: 250px;
+  background-color: #ffffff;
+  display: flex;
+  height: 75px;
+  position: absolute;
+  top: 25%;
+  right: 8%;
+  border-radius: 15px;
+  border: 4px solid #ffffff;
+  align-content: center;
+  align-items: center;
+}
+#btn_criarConta {
+  width: 100%;
+  color: #000000;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+
+#logoBIKO {
+  width: 80px;
+  height: 80px;
+  background: url("../images/v11_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 15%;
+  overflow: hidden;
+}
+.content-barra1{
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+.barra1 {
+  width: 100%;
+  height: 500px;
+  background: #000000;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.content-barraBranca{
+  width: 80%;
+  height: 80%;
+  padding-left: 57%;
+  padding-top: 5%;
+}
+.barra_branca {
+  width: 100%;
+  height: 500px;
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+#imagem_box {
+  width: 450px;
+  height: 350px;
+  opacity: 1;
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#image_box {
+  width: 450px;
+  height: 350px;
+  opacity: 1;
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.mainPage_Invertido {
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  left: 20.4%;
+  opacity: 1;
+}
+.mainPageDesc_Invertido {
+  position: absolute;
+  padding-top: 6%;
+  left: 20.4%;
+}
+
+.mainPage_Titulo{
+  position: absolute;
+  padding-top: 1%;
+  right: 240px;
+  color: #ffffff;
+}
+.mainPage_Descri{
+  position: absolute;
+  padding-top: 7.5%;
+  right: 190px;
+  color: #ffffff;
+}
+
+
+#titulo_pgInicial {
+  width: 400px;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+#subtitulo_pgInicial {
+  width: 450px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.content-barra{
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+.barra {
+  width: 100%;
+  height: 500px;
+  background: #000000;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.mainPage_Title{
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  right: 15%;
+  color: #ffffff;
+}
+.mainPage_Desc{
+  position: absolute;
+  margin-top: 120px;
+  right: 12.3%;
+  top: 22%;
+  color: #ffffff;
+}
+
+#txtPaginaInicial{
+  width: fit-content;
+  height: fit-content;
+  padding-right: 10%;
+}
