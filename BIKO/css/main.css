@@ -14,7 +14,7 @@ body {
   background: #000000;
   opacity: 1;
   position: relative;
-  top: 0px;
+  padding-top: 1.5%;
   left: 0px;
   overflow: hidden;
 }
@@ -29,7 +29,7 @@ body {
   left: 40%;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
 }
@@ -37,11 +37,10 @@ body {
   width: fit-content;
   color: #ffffff;
   position: absolute;
-  top: 1%;
   left: 21%;
   font-family: 'Inter', sans-serif;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 24px;
   opacity: 1;
   text-align: left;
 }
@@ -54,12 +53,12 @@ body {
   position: absolute;
   font-family: 'Inter', sans-serif;
   font-weight: Bold;
-  font-size: 24px;
+  font-size: 18px;
   opacity: 1;
 
 }
 .bordaAcesso{
-  width: 150px;
+  width: 145px;
   display: flex;
   height: 75px;
   position: absolute;
@@ -92,7 +91,7 @@ body {
   position: absolute;
   font-family: 'Inter', sans-serif;
   font-weight: Bold;
-  font-size: 24px;
+  font-size: 18px;
   opacity: 1;
   text-align: center;
 }
@@ -190,7 +189,7 @@ body {
   width: 400px;
   font-family: 'Inter';
   font-weight: 800;
-  font-size: 36px;
+  font-size: 28px;
   opacity: 1;
   text-align: left;
 }
@@ -198,7 +197,7 @@ body {
   width: 450px;
   font-family: 'Inter';
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
 }
@@ -209,7 +208,7 @@ body {
   height: 100%;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 5%;
+  padding-top: 4%;
 }
 .barra {
   width: 100%;
@@ -224,14 +223,14 @@ body {
 
 .mainPage_Title{
   position: absolute;
-  margin-top: 30px;
+  margin-top: 3%;
   margin-bottom: 10px;
   right: 15%;
   color: #ffffff;
 }
 .mainPage_Desc{
   position: absolute;
-  margin-top: 120px;
+  margin-top: 8%;
   right: 12.3%;
   top: 22%;
   color: #ffffff;
@@ -241,4 +240,18 @@ body {
   width: fit-content;
   height: fit-content;
   padding-right: 10%;
+}
+
+.foto2{
+  top: 15%;
+}
+
+#img_trello{
+  width: 25px;
+  height: 25px;
+}
+
+#img_insta{
+  width: 25px;
+  height: 25px;
 }
